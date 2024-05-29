@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['maca']
+
+roboflow:
+  workspace: joao-carlos-pereira-de-souza
+  project: macas-kyohn
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/joao-carlos-pereira-de-souza/macas-kyohn/dataset/2
